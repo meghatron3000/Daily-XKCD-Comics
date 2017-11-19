@@ -1,0 +1,35 @@
+body {
+    font-family: "Tahoma", Tahoma, Arial, sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comicContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+    flex-direction: column;
+    margin-top:-10vh;
+}
+
+#xkcd {
+    height:10vh;
+    padding: 5px;
+}
+
+.gHeight {
+    height: 50vh !important;
+}
+.gWidth{
+    width: 68vh !important;
+}
